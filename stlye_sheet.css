@@ -1,12 +1,9 @@
-title 
-{
-    align-self: center;
-}
-
 body {
   background-color: rgb(255, 143, 143);
   font-family: sans-serif;
 }
-h1 {
+h1 
+{
+    margin-left: 575px;
   color: rgb(0, 0, 0);
 }
