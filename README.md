@@ -1,3 +1,7 @@
 # art_resources
 
-Kevin
+Kevin Sanchez
+
+Nick Gonzalez
+
+Noah
