@@ -1,27 +1,24 @@
-.navbar {
+ul {
   font-size: 200%;
   list-style-type: none;
   padding: 0;
   display: flex;
   justify-content: space-around;
   border: 10px rgb black;
+  
+  
 }
 
+a
+{
+  text-decoration: none;
+  color: white;
+}
 nav ul li {
   display: inline;
-  background-color: red;
-}
-.tab:active {
-  color: hotpink;
-}
-
-.tab {
+  background-color: rgb(253, 93, 93);
   color: rgb(0, 0, 0);
-  text-decoration: none;
-  border: 1px white;
-}
-.tab:hover {
-  border: rgb(255, 190, 190);
+  border: 10px white;
 }
 
 body {
