@@ -73,19 +73,9 @@ h3 {
   margin-right: 65%;
 }
 /* Movies */
-
-.Avatar {
-  margin-left: 20%;
-}
-.avatarimg {
-  border: solid white;
-  border-width: 5px;
+.avatar_img {
+  width: 20%;
+  height: 20em;
+  margin-left: 65%;
   margin-right: auto;
-  margin-left: 20%;
-  margin-bottom: 50px;
-  width: 250px;
-  height: 250px;
-}
-.avengers {
-  margin-left: 55%;
 }
