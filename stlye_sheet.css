@@ -6,6 +6,11 @@ ul {
   justify-content: space-around;
 }
 
+.tab:hover
+{
+  border: 1px rgb(255, 190, 190);
+}
+
 body {
   background-color: rgb(255, 143, 143);
   font-family: sans-serif;
@@ -30,7 +35,7 @@ h2 {
   font-size: 300%;
 }
 
-.weezer {
+.right {
   margin-left: 65%;
   margin-right: auto;
   max-width: 25%;
@@ -39,24 +44,22 @@ h2 {
   animation-duration: 1s;
 }
 
-h3 {
+h3 
+{
   margin-left: 65%;
 }
 
-.weezp {
+.rightp {
   margin-left: 65%;
 }
 
-.radiohead {
+.left {
   margin-left: 10%;
   animation-name: fadein;
   animation-duration: 1s;
 }
-.radioh {
-  margin-left: 10%;
-}
 
-.radiop {
+.leftp {
   margin-left: 10%;
 }
 
