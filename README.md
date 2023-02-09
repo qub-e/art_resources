@@ -1,5 +1,6 @@
 # art_resources
 
 - Kevin
-- Noe 
+- Noe
 - Nick
+  Marco
