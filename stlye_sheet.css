@@ -5,12 +5,9 @@ ul {
   display: flex;
   justify-content: space-around;
   border: 10px rgb black;
-  
-  
 }
 
-a
-{
+a {
   text-decoration: none;
   color: white;
 }
@@ -54,14 +51,14 @@ h2 {
   animation-duration: 2s;
 }
 
-.right_margin {
-  margin-left: 65%;
-}
-
 .left {
   margin-right: 65%;
   animation-name: fadein;
   animation-duration: 1s;
+}
+
+.right_margin {
+  margin-left: 65%;
 }
 
 .left_margin {
@@ -82,28 +79,30 @@ h2 {
   height: 20em;
   margin-left: 65%;
   margin-right: auto;
-  border: solid white;
+  border: solid white 0.25em;
 }
 .endgame_img {
   width: 20%;
   height: 20em;
-  margin-left: auto;
+  margin-left: 10%;
   margin-right: 65%;
-  border: solid white;
+  border: solid white 0.25em;
 }
 .titanic_img {
   width: 20%;
   height: 20em;
   margin-left: 65%;
   margin-right: auto;
-  border: solid white;
+  border: solid white 0.25em;
 }
 .avatar2_img {
   width: 20%;
   height: 20em;
   margin-left: auto;
   margin-right: 65%;
-  border: solid white;
+  border: solid white 0.25em;
+}
+.theather_img {
 }
 
 /* Travel */
