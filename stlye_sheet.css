@@ -82,6 +82,28 @@ h2 {
   height: 20em;
   margin-left: 65%;
   margin-right: auto;
+  border: solid white;
+}
+.endgame_img {
+  width: 20%;
+  height: 20em;
+  margin-left: auto;
+  margin-right: 65%;
+  border: solid white;
+}
+.titanic_img {
+  width: 20%;
+  height: 20em;
+  margin-left: 65%;
+  margin-right: auto;
+  border: solid white;
+}
+.avatar2_img {
+  width: 20%;
+  height: 20em;
+  margin-left: auto;
+  margin-right: 65%;
+  border: solid white;
 }
 
 /* Travel */
