@@ -4,6 +4,7 @@
   padding: 0;
   display: flex;
   justify-content: space-around;
+  border: 1px rgb white;
 }
 
 .tab:active
@@ -18,7 +19,7 @@
 }
 .tab:hover
 {
-  border: 1px rgb(255, 190, 190);
+  border:  rgb(255, 190, 190);
 }
 
 body {
@@ -51,15 +52,11 @@ h2 {
   max-width: 25%;
   max-height: auto;
   animation-name: fadein;
-  animation-duration: 1s;
+  animation-duration: 2s;
 }
 
-h3 
+.right_margin
 {
-  margin-left: 65%;
-}
-
-.rightp {
   margin-left: 65%;
 }
 
@@ -69,14 +66,10 @@ h3
   animation-duration: 1s;
 }
 
-.leftp {
+.left_margin {
   margin-right: 65%;
 }
 
-.lefth
-{
-  margin-right: 65%;
-}
 /* Movies */
 
 .Container {
