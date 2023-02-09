@@ -1,4 +1,4 @@
-ul {
+.navbar {
   font-size: 200%;
   list-style-type: none;
   padding: 0;
@@ -6,6 +6,16 @@ ul {
   justify-content: space-around;
 }
 
+.tab:active
+{
+  color: hotpink;
+}
+
+.tab
+{
+  color:rgb(0, 0, 0);
+  text-decoration: none;
+}
 .tab:hover
 {
   border: 1px rgb(255, 190, 190);
@@ -54,15 +64,19 @@ h3
 }
 
 .left {
-  margin-left: 10%;
+  margin-right: 65%;
   animation-name: fadein;
   animation-duration: 1s;
 }
 
 .leftp {
-  margin-left: 10%;
+  margin-right: 65%;
 }
 
+.lefth
+{
+  margin-right: 65%;
+}
 /* Movies */
 .Container {
   display: block;
