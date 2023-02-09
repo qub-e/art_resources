@@ -1,9 +1,25 @@
-ul {
+.navbar {
   font-size: 200%;
   list-style-type: none;
   padding: 0;
   display: flex;
   justify-content: space-around;
+  border: 1px rgb white;
+}
+
+.tab:active
+{
+  color: hotpink;
+}
+
+.tab
+{
+  color:rgb(0, 0, 0);
+  text-decoration: none;
+}
+.tab:hover
+{
+  border:  rgb(255, 190, 190);
 }
 
 body {
@@ -30,37 +46,32 @@ h2 {
   font-size: 300%;
 }
 
-.weezer {
+.right {
   margin-left: 65%;
   margin-right: auto;
   max-width: 25%;
   max-height: auto;
   animation-name: fadein;
-  animation-duration: 1s;
+  animation-duration: 2s;
 }
 
-h3 {
+.right_margin
+{
   margin-left: 65%;
 }
 
-.weezp {
-  margin-left: 65%;
-}
-
-.radiohead {
-  margin-left: 10%;
+.left {
+  margin-right: 65%;
   animation-name: fadein;
   animation-duration: 1s;
 }
-.radioh {
-  margin-left: 10%;
-}
 
-.radiop {
-  margin-left: 10%;
+.left_margin {
+  margin-right: 65%;
 }
 
 /* Movies */
+
 .Container {
   display: block;
 }
