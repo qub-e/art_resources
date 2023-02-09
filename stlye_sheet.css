@@ -4,8 +4,13 @@
   padding: 0;
   display: flex;
   justify-content: space-around;
+  border: 10px rgb black;
 }
 
+nav ul li {
+  display: inline;
+  background-color: red;
+}
 .tab:active {
   color: hotpink;
 }
@@ -13,9 +18,10 @@
 .tab {
   color: rgb(0, 0, 0);
   text-decoration: none;
+  border: 1px white;
 }
 .tab:hover {
-  border: 1px rgb(255, 190, 190);
+  border: rgb(255, 190, 190);
 }
 
 body {
@@ -48,14 +54,10 @@ h2 {
   max-width: 25%;
   max-height: auto;
   animation-name: fadein;
-  animation-duration: 1s;
+  animation-duration: 2s;
 }
 
-h3 {
-  margin-left: 65%;
-}
-
-.rightp {
+.right_margin {
   margin-left: 65%;
 }
 
@@ -65,17 +67,27 @@ h3 {
   animation-duration: 1s;
 }
 
-.leftp {
+.left_margin {
   margin-right: 65%;
 }
 
 .lefth {
   margin-right: 65%;
 }
+.piano {
+  max-width: 50%;
+  max-height: auto;
+}
+
 /* Movies */
 .avatar_img {
   width: 20%;
   height: 20em;
   margin-left: 65%;
   margin-right: auto;
+}
+
+/* Travel */
+.Container {
+  display: block;
 }
