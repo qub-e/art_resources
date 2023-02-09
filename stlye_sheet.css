@@ -7,6 +7,10 @@
   border: 1px rgb white;
 }
 
+nav ul li{
+  display: inline; 
+  background-color: red;
+}
 .tab:active
 {
   color: hotpink;
