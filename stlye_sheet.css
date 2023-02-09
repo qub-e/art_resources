@@ -4,7 +4,7 @@
   padding: 0;
   display: flex;
   justify-content: space-around;
-  border: 1px rgb white;
+  border: 10px rgb black;
 }
 
 .tab:active
@@ -16,6 +16,7 @@
 {
   color:rgb(0, 0, 0);
   text-decoration: none;
+  border:1px white;
 }
 .tab:hover
 {
@@ -70,6 +71,12 @@ h2 {
   margin-right: 65%;
 }
 
+.piano
+{
+  max-width: 50%;
+  max-height: auto;
+}
+
 /* Movies */
 
 .Container {
@@ -90,3 +97,6 @@ h2 {
 .avengers {
   margin-left: 55%;
 }
+
+/* Travel */
+
