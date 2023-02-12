@@ -81,7 +81,8 @@ iframe {
 }
 /* Movies */
 .mp {
-  align-content: center;
+  text-align: center;
+  font-weight: bold;
 }
 .avatar_img {
   float: none;
