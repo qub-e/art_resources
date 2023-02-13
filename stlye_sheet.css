@@ -154,13 +154,13 @@ iframe {
   width: 50%;
   height: 50%;
   margin-left: 25%;
-  margin-right: 65%;
+  margin-right: auto;
 }
 .mexico_img {
   width: 40%;
   height: 40%;
   margin-left: 60%;
-  margin-right: 65%;
+  margin-right: auto;
 }
 .dr_img {
   width: 40%;
@@ -173,5 +173,5 @@ iframe {
   width: 40%;
   height: 40%;
   margin-left: 60%;
-  margin-right: 65%;
+  margin-right: auto%;
 }
