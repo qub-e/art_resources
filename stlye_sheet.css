@@ -26,7 +26,7 @@ li a:hover
 {
   background-color: rgb(255, 166, 166);
   animation-name: dropshadow_b;
-  animation-duration:3s;
+  animation-duration:2s;
   animation-fill-mode: forwards;
 }
 
@@ -34,7 +34,8 @@ a:hover
 {
   background-color: rgb(255, 166, 166);
   animation-name: dropshadow_w;
-  animation-duration:2s;
+  animation-duration:1s;
+  animation-fill-mode: forwards;
 }
 
 body {
@@ -69,7 +70,7 @@ p
   }
   to
   {
-    filter: drop-shadow(30px 10px #ffffff);
+    filter: drop-shadow(15px 5px #ffffff);
   }
 
 }
