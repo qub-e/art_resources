@@ -1,3 +1,11 @@
+nav {
+  position: sticky;
+  top: 0em;
+  left: 0em;
+  width: 100%;
+  z-index: 1;
+}
+
 ul {
   font-size: 200%;
   list-style-type: none;
@@ -23,14 +31,14 @@ li a {
 li a:hover {
   background-color: rgb(255, 166, 166);
   animation-name: dropshadow_b;
-  animation-duration:2s;
+  animation-duration: 2s;
   animation-fill-mode: forwards;
 }
 
 a:hover {
   background-color: rgb(255, 166, 166);
   animation-name: dropshadow_w;
-  animation-duration:1s;
+  animation-duration: 1s;
   animation-fill-mode: forwards;
 }
 
@@ -57,8 +65,7 @@ p {
   from {
     filter: drop-shadow(0px 0px rgb(255, 255, 255));
   }
-  to
-  {
+  to {
     filter: drop-shadow(15px 5px #ffffff);
   }
 }
