@@ -6,12 +6,10 @@ ul {
   justify-content: space-around;
   overflow: hidden;
   background-color: rgb(255, 93, 93);
-  
 }
 
-li
-{
-  float:left;
+li {
+  float: left;
 }
 
 li a {
@@ -22,16 +20,14 @@ li a {
   padding: 14px 16px;
 }
 
-li a:hover
-{
+li a:hover {
   background-color: rgb(255, 166, 166);
   animation-name: dropshadow_b;
   animation-duration:2s;
   animation-fill-mode: forwards;
 }
 
-a:hover
-{
+a:hover {
   background-color: rgb(255, 166, 166);
   animation-name: dropshadow_w;
   animation-duration:1s;
@@ -43,36 +39,28 @@ body {
   font-family: sans-serif;
 }
 
-p
-{
+p {
   font-size: 200%;
   color: white;
 }
 
-@keyframes dropshadow_b
-{
-  from
-  {
+@keyframes dropshadow_b {
+  from {
     filter: drop-shadow(0px 0px rgb(255, 93, 93));
   }
-  to
-  {
+  to {
     filter: drop-shadow(30px 10px #000000);
   }
-
 }
 
-@keyframes dropshadow_w
-{
-  from
-  {
+@keyframes dropshadow_w {
+  from {
     filter: drop-shadow(0px 0px rgb(255, 255, 255));
   }
   to
   {
     filter: drop-shadow(15px 5px #ffffff);
   }
-
 }
 
 @keyframes fadein {
@@ -127,6 +115,8 @@ h2 {
 .piano {
   max-width: 50%;
   max-height: auto;
+  margin-left: 25%;
+  margin-right: auto;
 }
 
 iframe {
@@ -172,10 +162,12 @@ iframe {
   border: solid black 0.25em;
   filter: drop-shadow(0.5rem 0.5rem 1rem white);
 }
-.theather_img {
-  width: 75%;
-  height: 75%;
-  justify-content: center;
+.movie_img {
+  width: 50%;
+  height: 50%;
+  align-items: center;
+  margin-left: 25%;
+  margin-right: auto;
 }
 /* Travel */
 
