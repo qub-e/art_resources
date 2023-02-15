@@ -13,7 +13,7 @@ ul {
   display: flex;
   justify-content: space-around;
   overflow: hidden;
-  background-color: #ffa6a6;
+  background-color: rgb(255, 221, 0)
 }
 
 li {
@@ -23,27 +23,27 @@ li {
 li a {
   display: block;
   text-decoration: none;
-  color: white;
+  color: rgb(0, 0, 0);
   text-align: center;
   padding: 14px 16px;
 }
 
 li a:hover {
-  background-color: rgb(255, 166, 166);
+  background-color: rgb(255, 238, 125);
   animation-name: dropshadow_b;
   animation-duration: 2s;
   animation-fill-mode: forwards;
 }
 
 a:hover {
-  background-color: rgb(255, 166, 166);
+  background-color: rgb(255, 238, 125);
   animation-name: dropshadow_w;
   animation-duration: 1s;
   animation-fill-mode: forwards;
 }
 
 body {
-  background-color: rgb(255, 143, 143);
+  background-color: rgb(128,128,128);
   font-family: sans-serif;
 }
 
