@@ -70,6 +70,7 @@ p {
 .icon {
   width: 0.5cm;
   height: auto;
+  padding-right: 0.5em;
 }
 
 h1 {
