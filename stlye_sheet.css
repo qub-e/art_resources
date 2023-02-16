@@ -13,7 +13,7 @@ ul {
   display: flex;
   justify-content: space-around;
   overflow: hidden;
-  background-color: rgb(255, 221, 0)
+  background-color: rgb(255, 221, 0);
 }
 
 li {
@@ -41,12 +41,12 @@ li a:hover {
 }
 
 body {
-  background-color: rgb(128,128,128);
+  background-color: rgb(128, 128, 128);
   font-family: sans-serif;
 }
 
 p {
-  font-size: 200%;
+  font-size: 125%;
   color: white;
 }
 
