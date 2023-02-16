@@ -35,9 +35,8 @@ li a:hover {
   animation-fill-mode: forwards;
 }
 
-.logo
-{
-  padding-top: .75cm;
+.logo {
+  padding-top: 0.75cm;
 }
 
 body {
@@ -52,7 +51,7 @@ p {
 
 @keyframes dropshadow {
   from {
-    filter: drop-shadow(0px 0px) rgb(255,221,0);
+    filter: drop-shadow(0px 0px) rgb(255, 221, 0);
   }
   to {
     filter: drop-shadow(30px 10px #000000);
@@ -68,9 +67,8 @@ p {
   }
 }
 
-.icon
-{
-  width: .5cm;
+.icon {
+  width: 0.5cm;
   height: auto;
 }
 
