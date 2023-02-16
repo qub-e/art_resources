@@ -120,56 +120,45 @@ h2 {
   margin-left: 25%;
   margin-right: auto;
 }
-
 iframe {
-  width: auto;
-  height: auto;
+  height: 8em;
+  width: 20em;
 }
 /* Movies */
-
-.mp {
-  text-align: center;
-  font-weight: bold;
+#money {
+  display: flex;
+  justify-content: flex-end;
+  background-color: crimson;
 }
-.avatar_img {
-  float: none;
+.title_even {
+  background-color: crimson;
+  display: flex;
+  justify-content: flex-end;
+}
+.description {
+  display: flex;
+  width: 50%;
+  flex-wrap: wrap;
+  background-color: black;
+}
+.container {
+  display: flex 1;
+  padding: unset;
+  flex-direction: row;
+  padding: 5em;
+}
+.image {
+  display: flex;
   width: 20%;
   height: 20em;
-  margin-left: 65%;
-  margin-right: auto;
   border: solid black 0.25em;
-  filter: drop-shadow(0.5rem 0.5rem 1rem white);
-}
-.endgame_img {
-  width: 20%;
-  height: 20em;
-  margin-left: 10%;
-  margin-right: 65%;
-  border: solid black 0.25em;
-  filter: drop-shadow(0.5rem 0.5rem 1rem white);
-}
-.titanic_img {
-  width: 20%;
-  height: 20em;
-  margin-left: 65%;
-  margin-right: auto;
-  border: solid black 0.25em;
-  filter: drop-shadow(0.5rem 0.5rem 1rem white);
-}
-.avatar2_img {
-  width: 20%;
-  height: 20em;
-  margin-left: 10%;
-  margin-right: 65%;
-  border: solid black 0.25em;
-  filter: drop-shadow(0.5rem 0.5rem 1rem white);
+  justify-content: right;
+  align-items: center;
 }
 .movie_img {
   width: 50%;
   height: 50%;
   align-items: center;
-  margin-left: 25%;
-  margin-right: auto;
 }
 /* Travel */
 
