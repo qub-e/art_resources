@@ -35,6 +35,11 @@ li a:hover {
   animation-fill-mode: forwards;
 }
 
+.logo
+{
+  padding-top: .75cm;
+}
+
 body {
   background-color: rgb(128,128,128);
   font-family: sans-serif;
