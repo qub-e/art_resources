@@ -31,7 +31,7 @@ li a {
 li a:hover {
   background-color: rgb(255, 238, 125);
   animation-name: dropshadow;
-  animation-duration: .5s;
+  animation-duration: 0.5s;
   animation-fill-mode: forwards;
 }
 
@@ -91,30 +91,29 @@ h2 {
   margin-right: auto;
 }
 
-.album{
+.album {
   display: flex;
   justify-content: space-around;
-  padding:25px;
+  padding: 25px;
 }
 
-.album_cover{
+.album_cover {
   flex-direction: column;
   display: flex;
   justify-content: space-around;
 }
 
-.album:nth-child(even)
-{
+.album:nth-child(even) {
   flex-direction: row-reverse;
 }
 
-.cover{
+.cover {
   height: 316px;
   width: 316px;
 }
 
 /* Movies */
-#money {
+.money {
   display: flex;
   justify-content: flex-end;
   background-color: crimson;
@@ -124,17 +123,27 @@ h2 {
   display: flex;
   justify-content: flex-end;
 }
+
 .description {
   display: flex;
   width: 50%;
   flex-wrap: wrap;
   background-color: black;
 }
-.container {
-  display: flex 1;
+.movie {
+  display: flex;
   padding: unset;
-  flex-direction: row;
+  flex-direction: column;
   padding: 5em;
+}
+
+.image_even {
+  display: flex;
+  width: 20%;
+  height: 20em;
+  border: solid black 0.25em;
+  justify-content: flex-end;
+  align-items: center;
 }
 .image {
   display: flex;
@@ -147,7 +156,7 @@ h2 {
 .movie_img {
   width: 50%;
   height: 50%;
-  align-items: center;
+  margin-left: 25%;
 }
 /* Travel */
 
