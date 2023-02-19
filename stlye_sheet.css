@@ -101,6 +101,9 @@ h2 {
   flex-direction: column;
   display: flex;
   justify-content: space-around;
+  max-width: 20em;
+  max-height: 20em;
+  padding: 25px;
 }
 
 .album:nth-child(even) {
@@ -113,38 +116,19 @@ h2 {
 }
 
 /* Movies */
-.money {
+
+.mp {
   display: flex;
-  justify-content: flex-end;
-  background-color: crimson;
-}
-.title_even {
-  background-color: crimson;
-  display: flex;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 .description {
   display: flex;
-  width: 50%;
   flex-wrap: wrap;
-  background-color: black;
-}
-.movie {
-  display: flex;
-  padding: unset;
-  flex-direction: column;
-  padding: 5em;
+  align-items: center;
+  justify-content: flex-start;
 }
 
-.image_even {
-  display: flex;
-  width: 20%;
-  height: 20em;
-  border: solid black 0.25em;
-  justify-content: flex-end;
-  align-items: center;
-}
 .image {
   display: flex;
   width: 20%;
