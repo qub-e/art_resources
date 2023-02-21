@@ -89,7 +89,7 @@ h2 {
   max-height: auto;
 }
 
-.home{
+.home {
   display: flex;
   justify-content: space-around;
   padding: 25px;
@@ -145,8 +145,6 @@ h2 {
 }
 .movie_img {
   width: 50%;
-  height: 50%;
-  margin-left: 25%;
 }
 /* Travel */
 
