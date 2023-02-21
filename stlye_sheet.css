@@ -134,6 +134,7 @@ h2 {
   flex-wrap: wrap;
   align-items: center;
   justify-content: flex-start;
+  padding: 2.5em 2.5em;
 }
 
 .image {
