@@ -46,8 +46,9 @@ body {
 }
 
 p {
-  font-size: 125%;
+  font-size: 200%;
   color: white;
+  padding: 50px;
 }
 
 @keyframes dropshadow {
@@ -100,6 +101,8 @@ h2 {
 .album {
   display: flex;
   justify-content: space-around;
+  padding-left: 150px;
+  padding-right: 150px;
   padding-top: 100px;
   padding-bottom: 100px;
 }
