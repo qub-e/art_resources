@@ -3,5 +3,4 @@
 - Kevin
 - Noe
 - Nick
-
--Marcos
+- Marcos
